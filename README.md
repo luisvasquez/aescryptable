@@ -9,7 +9,7 @@ Provides [`Advanced Encryption Standard (AES)`](https://en.wikipedia.org/wiki/Ad
 
 - [x] Relies on native [`CCCrypt`](http://bit.ly/cccryptManPages) (via `import CommonCrypto`).
 - [x] Uses [`Cipher Block Chaining (CBC)`](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_Block_Chaining_(CBC)) mode with random [`Initialization Vector (IV)`](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Initialization_vector_(IV)).
-- [x] Works (only) with **256-bit** [`key size`](https://en.wikipedia.org/wiki/Key_size). This is by design.
+- [x] **NO MORE!!! This fork adds a non 256-bit key, for special purposes.** Works (only) with **256-bit** [`key size`](https://en.wikipedia.org/wiki/Key_size). This is by design.
 - [x] Uses `kCCOptionPKCS7Padding` as `CCOptions` by default.
 
 ## Integration

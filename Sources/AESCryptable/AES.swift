@@ -50,6 +50,6 @@ public struct AES {
     }
     
     public init(non256bitsKeyString: String) throws {
-        self.key = Data(non256bitsKey.utf8)
+        self.key = Data(non256bitsKeyString.utf8)
     }
 }

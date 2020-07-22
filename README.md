@@ -10,7 +10,7 @@ Provides [`Advanced Encryption Standard (AES)`](https://en.wikipedia.org/wiki/Ad
 - [x] Relies on native [`CCCrypt`](http://bit.ly/cccryptManPages) (via `import CommonCrypto`).
 - [x] Uses [`Cipher Block Chaining (CBC)`](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_Block_Chaining_(CBC)) mode with random [`Initialization Vector (IV)`](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Initialization_vector_(IV)).
 - [x] Uses `kCCOptionPKCS7Padding` as `CCOptions` by default.
-- [x] **THIS FORK DIFFERS FROM [backslash-f/aescryptable](https://github.com/backslash-f/aescryptable) BY ADDING A NON 256-bit KEY, sometimes needed for special purposes.**
+- [x] **THIS FORK DIFFERS FROM [backslash-f/aescryptable](https://github.com/backslash-f/aescryptable) BY ADDING A NON 256-bit KEY INITIALIZER, sometimes needed for special purposes.**
 
 ## Integration
 ### Xcode 11+
